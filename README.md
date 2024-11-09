@@ -17,3 +17,5 @@ LS    =>  list of the files and folders
 Grep  =>  Print the matching line
 Cat   =>  Display the content of the file
 WC    =>  count the word and lines
+cd    =>  to change the directory
+
