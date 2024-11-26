@@ -1,0 +1,17 @@
+
+[2024-11-23 18:28:41]
+go mod init your-project-name
+
+[2024-11-23 18:28:52]
+Then run the go get command above.
+
+[2024-11-23 18:29:05]
+If you're using Go modules (go.mod file), make sure you're in your project directory when running this command. If you haven't initialized Go modules yet, first run:
+
+
+[2024-11-23 18:29:15]
+New clipboard content saved!
+
+[2024-11-23 18:34:07]
+go get github.com/getlantern/systray
+go get github.com/skratchdot/open-golang/open
