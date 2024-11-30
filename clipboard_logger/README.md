@@ -11,7 +11,7 @@ This is a Clipboard History Manager written in Go, which allows users to monitor
     Time-stamped Entries: Each entry is labeled with the time it was copied.
     Lightweight: Operates seamlessly in the background.
 
-How It Works
+<b>ow It Works</b>
 
     The application starts by creating a system tray icon.
     It monitors the clipboard continuously for new content.
@@ -21,32 +21,31 @@ How It Works
     Clicking on a history item copies the content back to the clipboard.
     Exiting the application can be done via the Quit menu item.
 
-Installation
-Prerequisites
+<b>Installation Prerequisites</b>
 
     Go installed on your system.
     A compatible operating system (Windows, macOS, Linux).
 
-Steps
+<b>Steps</b>
 
     Clone this repository:
 
 git clone https://github.com/your-username/clipboard-history-manager.git
 cd clipboard-history-manager
 
-Install dependencies:
+<b>Install dependencies:</b>
 
 go mod tidy
 
-Build the application:
+<b>Build the application:</b>
 
 go build -o clipboard-manager
 
-Run the application:
+<b>Run the application:</b>
 
     ./clipboard-manager
 
-Usage
+<b>Usage</b>
 
     Start the application.
     The tray icon will appear in your system's notification area.
@@ -55,13 +54,12 @@ Usage
     Select an item from the history to copy it back to the clipboard.
     Use the Quit option to exit the application.
 
-Code Overview
-Key Libraries
+<b>Code Overview Key Libraries</b>
 
     systray: Manages the system tray icon and menu.
     clipboard: Provides clipboard read and write functionality.
 
-File Explanation
+<b>File Explanation</b>
 
     main(): Initializes the application and starts the system tray.
     onReady(): Sets up the tray icon, tooltip, and menu structure. Starts clipboard monitoring.
@@ -71,7 +69,7 @@ File Explanation
         Removes the oldest entry if the history exceeds the maximum limit.
     onExit(): Placeholder for cleanup code when the application exits.
 
-Future Enhancements
+<b>Future Enhancements</b>
 
     Add configuration options for:
         Maximum history size.
@@ -79,7 +77,7 @@ Future Enhancements
     Support for rich clipboard content (e.g., images).
     Cross-platform testing and improvements.
 
-License
+<b>License</b>
 
 This project is licensed under the MIT License. See the LICENSE file for details.
 Contributing
