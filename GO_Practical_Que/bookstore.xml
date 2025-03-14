@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bookstore>
+  <book id="1">
+    <title>Harry Potter</title>
+    <author>J.K. Rowling</author>
+    <year>2005</year>
+    <price>29.99</price>
+    <category>Fantasy</category>
+  </book>
+  <book id="2">
+    <title>The Go Programming Language</title>
+    <author>Alan Donovan</author>
+    <year>2015</year>
+    <price>39.99</price>
+    <category>Programming</category>
+  </book>
+  <book id="3">
+    <title>The Alchemist</title>
+    <author>Paulo Coelho</author>
+    <year>1988</year>
+    <price>19.99</price>
+    <category>Fiction</category>
+  </book>
+</bookstore>
